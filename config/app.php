@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://hoy-voytest'),
 
     /*
     |--------------------------------------------------------------------------
@@ -225,6 +225,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        
         'testLeapController'=> App\Http\Controllers\testLeapController::class,
 
     ],
